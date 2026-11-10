@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 Drill 2</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CSS -->
+    <style>
+
+        body {
+            margin: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: #004f63 !important;
+            padding: 15px;
+        }
+
+        .navbar-brand img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .nav-link {
+            color: white !important;
+            margin: 5px;
+        }
+
+        .nav-link:hover {
+            color: #ffc247 !important;
+        }
+
+        /* HEADER */
+        .hero-image {
+            position: relative;
+            text-align: center;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            filter: brightness(50%);
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            width: 85%;
+        }
+
+        .hero-text h1 {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+        }
+
+        /* ABOUT */
+        .about {
+            padding: 50px;
+            text-align: center;
+            background-color: white;
+        }
+
+        .about h2 {
+            color: #00566b;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            color: #444;
+            max-width: 900px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        /* CAMPUSES */
+        .campuses {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .campuses h2 {
+            color: #00566b;
+            margin-bottom: 15px;
+        }
+
+        .campuses .card {
+            margin: 15px 0;
+            height: 100%;
+        }
+
+        .campuses .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            color: #00566b;
+        }
+
+        /* CONTACT */
+        .contact {
+            background-color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            color: #00566b;
+            margin-bottom: 20px;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #004f63;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#home">
+            <img src="Screenshot 2026-11-10 at 11.55.48Screenshot 2026-11-10 at 11.55.48.png" width="250" alt="OBMC Logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+
+            <ul class="navbar-nav me-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#campuses">Campuses</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+            
+            <form class="d-flex">
+                <a href="#" class="btn btn-outline-info m-1">Student Portal</a>
+            </form>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- HEADER -->
+<div class="hero-image" id="home">
+
+    <img src="Screenshot 2026-11-10 at 07.13.44.png" class="img-fluid" alt="Students in a classroom">
+
+    <div class="hero-text">
+
+        <h1>Welcome to Operation Brotherhood Montessori Center</h1>
+
+        <p>
+            Nurturing young minds and developing responsible individuals through Montessori education.
+        </p>
+
+        <a href="#about" class="btn btn-primary">Learn More</a>
+
+    </div>
+
+</div>
+
+<!-- ABOUT US -->
+<section class="about" id="about">
+
+    <h2>About Us</h2>
+
+    <p>
+        Operation Brotherhood Montessori Center is an educational institution
+        that follows the Montessori method of education. It aims to develop
+        students' independence, creativity, discipline, and love for learning.
+        Through meaningful experiences, students are encouraged to become
+        responsible and confident individuals.
+    </p>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>
+        For more information about Operation Brotherhood Montessori Center,
+        visit the official OBMC website or contact the school directly.
+    </p>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+    <p>© Connor Cheng 9-Emerald</p>
+
+</footer>
+
+</body>
+</html>
